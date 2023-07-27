@@ -1,0 +1,934 @@
+*
+{
+ box-sizing: border-box;
+ margin: 0px;
+ padding: 0x;
+}
+.text-deco
+{
+    text-decoration: none;
+}
+body
+{
+    background-color: black;
+}
+#sidebar-section
+{
+    width:auto;
+    height:100vh;
+    background-color: #000000;
+    position:sticky;
+    top:0px;
+    float: left;
+}
+#profile
+{
+    width:auto;
+    height:auto;
+    background-color:black;
+}
+#insta-logo
+{
+    margin: 24px 8px;
+}
+#home
+{
+    margin-top: 37px;
+    margin-left:-8px;
+}
+#home:hover
+{
+    background-color: rgb(41, 39, 39);
+    border-radius: 10px;
+}
+#link-name
+{
+    font-size: 16px;
+    color: #f5f5f5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 11px;
+    font-weight: 700;
+}
+.menu-list
+{
+    margin-left: -8px;
+    margin-top: 13px;
+}
+.menu-name
+{
+    font-size: 16px;
+    color: #f5f5f5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left: 11px;
+}
+.menu-list:hover
+{
+    background-color: rgb(41, 39, 39);
+    border-radius: 10px;
+}
+.menu-list
+{
+   transition-duration: 1s;
+   transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+#profile-img-size
+{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+#drop-downs
+{
+  position: absolute;
+  bottom:40px;
+  margin-left:0px;
+  width:147px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+}
+#drop-down-link
+{
+    margin-left:10px;
+}
+#drop-downs:hover
+{
+    background-color: rgb(41, 39, 39);
+    border-radius: 10px; 
+}
+#drop-downs
+{
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.215, 0.610, 0.355, 1);
+}
+#display
+{
+    display: none;
+}
+#ul-size
+{
+     background-color: rgb(48, 47, 47);
+     border-radius: 15px;
+     width: 250px;
+     height: 420px;
+    
+}
+.drop-down-list
+{
+    margin: 8px;
+    margin-bottom:20px;
+}
+.dropDownListLink:hover
+{
+    background-color: rgb(242, 232, 232);
+    border-radius: 5px;
+}
+.dropDownListLink
+{
+    transition: all;
+    transition-duration: 1s;
+    transition-timing-function: cubic-bezier(0.23, 1, 0.320, 1);
+}
+.drop-down-menu
+{
+    font-size: 14px;
+    color: #f5f5f5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-left:7px;
+}
+#hr1
+{
+    height: 10px;
+}
+.align
+{
+    width:64px;
+    height:64px;
+    border-radius: 50%;
+    margin-top: -5px;
+    margin-top:3px;
+    margin-bottom:27px;
+   
+}
+#userimg
+{
+    width:64px;
+    height:64px;
+    border: 2px solid white;
+    outline: 3px solid rgb(234, 140, 0);
+    border-radius: 50%;
+}
+.img-hover
+{
+    text-decoration: none;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+}
+#add-story
+{
+    position: relative;
+}
+#abs
+{
+    position: absolute;
+    right: 0px;
+    background-color: black;
+    border-radius: 50%;
+}
+#slider-story
+{
+    width:80%;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#profile-img
+{
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+}
+#img-icon
+{
+    border-radius: 50%;
+}
+#content
+{
+    background-color:black;
+    margin-bottom: 20px;
+}
+.user-name
+{
+    margin-top: 5px;
+    font-size: 12px;
+    color: #f5f5f5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#small-screen
+{
+    display: none;
+}
+#small-screen2
+{
+    display: none;
+}
+#detail
+{
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+.dots 
+{
+    margin-left: auto;
+    display: flex;
+    align-items: flex-end;
+}
+.detail-block
+{
+    display: block;
+}
+.detailimg
+{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+}
+.detail-div
+{
+    margin-left: 15px;
+}
+.detail-block
+{
+  font-size: 14px;
+  color: #fafafa;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  margin-bottom:-3px;
+}
+.detail-block2
+{
+    font-size: 12px;
+    color: #f5f5f5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.time
+{
+    font-size: 14px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: #a8a8a8;
+}
+#detail-img
+{
+    width:70%;
+    height: 400px;
+    background-color: grey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 14px;
+    border-radius:10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    outline:5px solid orangered;
+}
+
+#copy-img
+{
+    width:auto;
+    height:400px;
+}
+#like-comment
+{
+    display: flex;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+}
+#saved
+{
+    margin-left: auto;
+}
+.mr 
+{
+    margin-right: 20px;
+}
+#like-comment-count
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+}
+.likes
+{
+    font-size: 14px;
+    color: #f5f5f5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.like-name
+{
+    font-size: 14px;
+    color: #f5f5f5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.comments-count
+{
+    font-size: 14px;
+    color: #a8a8a8;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.add 
+{
+    font-size: 14px;
+    color: #a8a8a8;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#mr-top
+{
+    margin-top:5px;
+}
+#users-details
+{
+   margin-top: 20px;
+   display: flex;
+   flex-direction: column;
+}
+.users-hr
+{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 5px;
+    color: rgb(130, 120, 120);
+}
+#right-content
+{
+   margin-top: 50px;
+}
+#main-div
+{
+    display: flex;
+    flex-direction: column;
+}
+#div-one
+{
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+}
+#div-two
+{
+    margin-left: 20px;
+}
+#div-three
+{
+    margin-right:70px;
+    display: flex;
+    align-items:center;
+}
+#switch-img
+{
+    border-radius: 50%;
+    width: 58px;
+    height:58px;
+}
+#switch-account
+{
+    display: flex;
+}
+#switch-user-name
+{
+    display: block;
+    font-size: 14px;
+    color: #f5f5f5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#switch
+{
+    font-size: 12px;
+    color: #0095f6;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#switch-name
+{
+    font-size: 14px;
+    color: #a8a8a8;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#div-three
+{
+    margin-left: auto;
+}
+#suggestion
+{
+    display: flex;
+    margin-top:15px;
+}
+#sfy
+{
+    font-size: 14px;
+    color: #a8a8a8;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+#seeall
+{
+    margin-left: auto;
+    margin-right:70px ;
+}
+#alls
+{
+    font-size: 12px;
+    color: #f5f5f5;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight:bold;
+}
+#alls:hover
+{
+   color: #a8a8a8;;
+}
+.fallowers
+{
+    display: flex;
+    margin-top:20px;
+}
+.fallow-img
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+#fallower-img
+{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+.fallower-name
+{
+    display: block;
+    font-size: 14px;
+    color: #f5f5f5;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fallowedby
+{
+   font-size: 12px;
+   color: #a8a8a8;
+   font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fallowedby2
+{
+    margin-left: auto;
+    margin-right: 70px;
+}
+.fallow
+{
+    color: #0095f6;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.fallow:hover
+{
+    color: #f5f5f5;
+}
+.container 
+{
+    position:relative;
+    width: 100%;
+    padding-bottom: 56.25%;
+    height: 0;
+}
+.container iframe
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+@media only screen and (min-width:1200px) and (max-width:1399px)
+{
+    #logo-hide
+    {
+        display: none;
+    }
+    #display
+    {
+        display: block;
+    }
+    #link-name
+    {
+        display: none;
+    }
+    .menu-name
+    {
+        display: none;
+    }
+    #slider-story
+    {
+        width:auto;
+    }
+    #userimg
+    {
+        width: auto;
+    }
+}
+
+@media only screen and (min-width:992px) and (max-width:1199px)
+{
+    #logo-hide
+    {
+        display: none;
+    }
+    #display
+    {
+        display: block;
+    }
+    #link-name
+    {
+        display: none;
+    }
+    .menu-name
+    {
+        display: none;
+    }
+    #right-content
+    {
+        display: none;
+    }
+    #userimg
+    {
+        width: auto;
+    }
+}
+
+
+@media only screen and (min-width:768px) and (max-width:991px)
+{
+    #logo-hide
+    {
+        display: none;
+    }
+    #display
+    {
+        display: block;
+    }
+    #link-name
+    {
+        display: none;
+    }
+    .menu-name
+    {
+        display: none;
+    }
+    #right-content
+    {
+        display: none;
+    }
+    #slider-story
+    {
+        width:auto;
+    }
+    #userimg
+    {
+        width: auto;
+    }
+}
+
+@media only screen and (min-width:576px) and (max-width:767px)
+{
+    #logo-hide
+    {
+        display: none;
+    }
+    #display
+    {
+        display: block;
+    }
+    #link-name
+    {
+        display: none;
+    }
+    .menu-name
+    {
+        display: none;
+    }
+    #right-content
+    {
+        display: none;
+    }
+    #slider-story
+    {
+        width: 100%;
+        margin-top:10px;
+    }
+    #sidebar-section
+    {
+        display: none;
+    }
+    #small-screen
+    {
+        padding-top: 20px;
+        display: flex;
+        background-color: black;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+    #create
+    {
+        margin-left: auto;
+        margin-right: 20px;
+    }
+    #like
+    {
+        margin-right: 20px;
+    }
+    #small-screen2
+    {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        position:fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+    }
+    #userimg
+    {
+        width: auto;
+    }
+}
+
+
+@media only screen and (min-width:300px) and (max-width:575px)
+{
+    #logo-hide
+    {
+        display: none;
+    }
+    #display
+    {
+        display: block;
+    }
+    #link-name
+    {
+        display: none;
+    }
+    .menu-name
+    {
+        display: none;
+    }
+    #right-content
+    {
+        display: none;
+    }
+    #slider-story
+    {
+        width:auto;
+        margin-top:10px;
+    }
+    #users-details
+    {
+        margin-top:-15px;
+    }
+    #sidebar-section
+    {
+        display: none;
+    }
+    #small-screen
+    {
+        padding-top: 20px;
+        display: flex;
+        background-color: black;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        
+    }
+    #create
+    {
+        margin-left: auto;
+        margin-right: 20px;
+    }
+    #like
+    {
+        margin-right: 20px;
+    }
+    #small-screen2
+    {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        position:fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+    }
+    #userimg
+    {
+        height:auto;
+        width:auto;
+    }
+    #detail
+    {
+        width: 100%;
+    }
+    #detail-img
+    {
+        width:100%;
+    }
+    #like-comment
+    {
+        width:100%;
+    }
+    #like-comment-count
+    {
+        width: 100%;
+    }
+    #content
+    {
+        margin-bottom: 80px;
+    }
+}
+
+@media only screen and (min-width:200px) and (max-width:299px)
+{
+    #logo-hide
+    {
+        display: none;
+    }
+    #display
+    {
+        display: block;
+    }
+    #link-name
+    {
+        display: none;
+    }
+    .menu-name
+    {
+        display: none;
+    }
+    #right-content
+    {
+        display: none;
+    }
+    #slider-story
+    {
+        width:auto;
+        margin-top:10px;
+    }
+    #users-details
+    {
+        margin-top:-15px;
+    }
+    #sidebar-section
+    {
+        display: none;
+    }
+    #small-screen
+    {
+        padding-top: 20px;
+        display: flex;
+        background-color: black;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        
+    }
+    #create
+    {
+        margin-left: auto;
+        margin-right: 10px;
+    }
+    #like
+    {
+        margin-right: 20px;
+    }
+    #small-screen2
+    {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        position:fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+    }
+    #userimg
+    {
+        height:auto;
+        width:auto;
+    }
+    #detail
+    {
+        width: 100%;
+    }
+    #detail-img
+    {
+        width:100%;
+    }
+    #like-comment
+    {
+        width:100%;
+    }
+    #like-comment-count
+    {
+        width: 100%;
+    }
+    #content
+    {
+        margin-bottom: 80px;
+    }
+    
+}
+
+@media only screen and (min-width:0px) and (max-width:199px)
+{
+    #logo-hide
+    {
+        display: none;
+    }
+    #display
+    {
+        display: block;
+    }
+    #link-name
+    {
+        display: none;
+    }
+    .menu-name
+    {
+        display: none;
+    }
+    #right-content
+    {
+        display: none;
+    }
+    #slider-story
+    {
+        width:auto;
+        margin-top:10px;
+    }
+    #users-details
+    {
+        margin-top:-15px;
+    }
+    #sidebar-section
+    {
+        display: none;
+    }
+    #small-screen
+    {
+        padding-top: 20px;
+        display: flex;
+        background-color: black;
+        padding-bottom: 10px;
+        padding-left: 10px;
+        
+    }
+    #create
+    {
+        margin-left: auto;
+        margin-right: 10px;
+    }
+    #like
+    {
+        margin-right: 20px;
+    }
+    #small-screen2
+    {
+        display: flex;
+        justify-content: space-evenly;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        position:fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: black;
+    }
+    #userimg
+    {
+        height:auto;
+        width:auto;
+    }
+    #detail
+    {
+        width: 100%;
+    }
+    #detail-img
+    {
+        width:100%;
+    }
+    #like-comment
+    {
+        width:100%;
+    }
+    #like-comment-count
+    {
+        width: 100%;
+    }
+    #content
+    {
+        margin-bottom: 80px;
+    }
+    
+}
+
